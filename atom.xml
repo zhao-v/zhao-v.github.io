@@ -6,7 +6,7 @@
   <link href="https://dhbxs.club/atom.xml" rel="self"/>
   
   <link href="https://dhbxs.club/"/>
-  <updated>2021-01-19T14:57:33.584Z</updated>
+  <updated>2021-01-27T04:02:31.230Z</updated>
   <id>https://dhbxs.club/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>传感器覆盖率仿真软件设计</title>
+    <link href="https://dhbxs.club/posts/7cb72ad9.html"/>
+    <id>https://dhbxs.club/posts/7cb72ad9.html</id>
+    <published>2021-01-21T06:10:57.000Z</published>
+    <updated>2021-01-27T04:02:31.230Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="传感器覆盖率仿真软件设计"><a href="#传感器覆盖率仿真软件设计" class="headerlink" title="传感器覆盖率仿真软件设计"></a>传感器覆盖率仿真软件设计</h1><h2 id="设计要求"><a href="#设计要求" class="headerlink" title="设计要求"></a>设计要求</h2><ol><li><p>在某一固定大小的方形区域内，以随机位置方式布署多个传感器，计算实际区域覆盖率。以图形方式呈现传感器及其覆盖范围。</p></li><li><p>参数</p><ul><li><p>传感器数量</p></li><li><p>传感器感测半径</p></li></ul></li><li><p>计算理论覆盖率并与实际覆盖率比较</p><ul><li><p>理论覆盖率由公式计算得出</p><p>计算公式如下</p><p>随机分布 (Random Distribution)<br> R : 覆盖率 (Coverage Ratio)<br> n : 传感器数量 (Number of Sensors)<br> r : 感测半径 (Sensing Radius)<br> A : 感测区域面积 (Area)</p><img src= "https://cdn.jsdelivr.net/gh/zhao-v/blog-img/img/20201019233758.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/zhao-v/blog-img/img/20210121143547.png" alt="传感网覆盖率计算公式" style="zoom: 25%;" /></li><li><p>仿真结果之实际覆盖率应该近似于理论覆盖率</p></li></ul></li><li><p>仿真软件效果截图</p><p><img src= "https://cdn.jsdelivr.net/gh/zhao-v/blog-img/img/20201019233758.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/zhao-v/blog-img/img/20210121144044.png"></p></li></ol><h2 id="分步设计"><a href="#分步设计" class="headerlink" title="分步设计"></a>分步设计</h2><h3 id="语言及模块选择"><a href="#语言及模块选择" class="headerlink" title="语言及模块选择"></a>语言及模块选择</h3><p>按照截图来看，应该是用GUI编程实现的，常见的GUI有Java的Swing组件，以及Python的Tkinter库，及C++ 的Qt5。Python的Tkinter应该算是比较简单的一种简单的GUI实现方式。所以就采用Tkinter来实现GUI。那么设计语言就是Python了，当然也可以使用HTML +CSS+  JS来实现。</p><p><strong>未完待续</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;传感器覆盖率仿真软件设计&quot;&gt;&lt;a href=&quot;#传感器覆盖率仿真软件设计&quot; class=&quot;headerlink&quot; title=&quot;传感器覆盖率仿真软件设计&quot;&gt;&lt;/a&gt;传感器覆盖率仿真软件设计&lt;/h1&gt;&lt;h2 id=&quot;设计要求&quot;&gt;&lt;a href=&quot;#设计要求&quot; cla</summary>
+      
+    
+    
+    
+    <category term="物联网" scheme="https://dhbxs.club/categories/%E7%89%A9%E8%81%94%E7%BD%91/"/>
+    
+    
+    <category term="课程设计" scheme="https://dhbxs.club/tags/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/"/>
+    
+    <category term="Python" scheme="https://dhbxs.club/tags/Python/"/>
+    
+    <category term="ZigBee" scheme="https://dhbxs.club/tags/ZigBee/"/>
+    
+  </entry>
   
   <entry>
     <title>Python新手小练习</title>
@@ -36,9 +64,9 @@
     <category term="Python基础" scheme="https://dhbxs.club/categories/Python%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="期末总结" scheme="https://dhbxs.club/tags/%E6%9C%9F%E6%9C%AB%E6%80%BB%E7%BB%93/"/>
-    
     <category term="Python" scheme="https://dhbxs.club/tags/Python/"/>
+    
+    <category term="期末总结" scheme="https://dhbxs.club/tags/%E6%9C%9F%E6%9C%AB%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -257,9 +285,9 @@
     <category term="数据库系统原理及应用" scheme="https://dhbxs.club/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/"/>
     
     
-    <category term="Navicat" scheme="https://dhbxs.club/tags/Navicat/"/>
-    
     <category term="MySQL" scheme="https://dhbxs.club/tags/MySQL/"/>
+    
+    <category term="Navicat" scheme="https://dhbxs.club/tags/Navicat/"/>
     
   </entry>
   
@@ -283,11 +311,11 @@
     <category term="Web应用程序设计" scheme="https://dhbxs.club/categories/Web%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
     
     
+    <category term="JSP" scheme="https://dhbxs.club/tags/JSP/"/>
+    
     <category term="MyEclipse" scheme="https://dhbxs.club/tags/MyEclipse/"/>
     
     <category term="HTML" scheme="https://dhbxs.club/tags/HTML/"/>
-    
-    <category term="JSP" scheme="https://dhbxs.club/tags/JSP/"/>
     
   </entry>
   
@@ -390,9 +418,9 @@
     <category term="数据库系统原理及应用" scheme="https://dhbxs.club/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/"/>
     
     
-    <category term="Navicat" scheme="https://dhbxs.club/tags/Navicat/"/>
-    
     <category term="MySQL" scheme="https://dhbxs.club/tags/MySQL/"/>
+    
+    <category term="Navicat" scheme="https://dhbxs.club/tags/Navicat/"/>
     
   </entry>
   
@@ -472,9 +500,9 @@
     <category term="数据库系统原理及应用" scheme="https://dhbxs.club/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/"/>
     
     
-    <category term="Navicat" scheme="https://dhbxs.club/tags/Navicat/"/>
-    
     <category term="MySQL" scheme="https://dhbxs.club/tags/MySQL/"/>
+    
+    <category term="Navicat" scheme="https://dhbxs.club/tags/Navicat/"/>
     
   </entry>
   
@@ -525,9 +553,9 @@
     <category term="Web应用程序设计" scheme="https://dhbxs.club/categories/Web%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
     
     
-    <category term="HTML" scheme="https://dhbxs.club/tags/HTML/"/>
-    
     <category term="JSP" scheme="https://dhbxs.club/tags/JSP/"/>
+    
+    <category term="HTML" scheme="https://dhbxs.club/tags/HTML/"/>
     
   </entry>
   

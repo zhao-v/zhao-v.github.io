@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>传感器覆盖率仿真软件设计</title>
+      <link href="posts/7cb72ad9.html"/>
+      <url>posts/7cb72ad9.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="传感器覆盖率仿真软件设计"><a href="#传感器覆盖率仿真软件设计" class="headerlink" title="传感器覆盖率仿真软件设计"></a>传感器覆盖率仿真软件设计</h1><h2 id="设计要求"><a href="#设计要求" class="headerlink" title="设计要求"></a>设计要求</h2><ol><li><p>在某一固定大小的方形区域内，以随机位置方式布署多个传感器，计算实际区域覆盖率。以图形方式呈现传感器及其覆盖范围。</p></li><li><p>参数</p><ul><li><p>传感器数量</p></li><li><p>传感器感测半径</p></li></ul></li><li><p>计算理论覆盖率并与实际覆盖率比较</p><ul><li><p>理论覆盖率由公式计算得出</p><p>计算公式如下</p><p>随机分布 (Random Distribution)<br> R : 覆盖率 (Coverage Ratio)<br> n : 传感器数量 (Number of Sensors)<br> r : 感测半径 (Sensing Radius)<br> A : 感测区域面积 (Area)</p><img src= "https://cdn.jsdelivr.net/gh/zhao-v/blog-img/img/20201019233758.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/zhao-v/blog-img/img/20210121143547.png" alt="传感网覆盖率计算公式" style="zoom: 25%;" /></li><li><p>仿真结果之实际覆盖率应该近似于理论覆盖率</p></li></ul></li><li><p>仿真软件效果截图</p><p><img src= "https://cdn.jsdelivr.net/gh/zhao-v/blog-img/img/20201019233758.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/zhao-v/blog-img/img/20210121144044.png"></p></li></ol><h2 id="分步设计"><a href="#分步设计" class="headerlink" title="分步设计"></a>分步设计</h2><h3 id="语言及模块选择"><a href="#语言及模块选择" class="headerlink" title="语言及模块选择"></a>语言及模块选择</h3><p>按照截图来看，应该是用GUI编程实现的，常见的GUI有Java的Swing组件，以及Python的Tkinter库，及C++ 的Qt5。Python的Tkinter应该算是比较简单的一种简单的GUI实现方式。所以就采用Tkinter来实现GUI。那么设计语言就是Python了，当然也可以使用HTML +CSS+  JS来实现。</p><p><strong>未完待续</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 物联网 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 课程设计 </tag>
+            
+            <tag> Python </tag>
+            
+            <tag> ZigBee </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python新手小练习</title>
       <link href="posts/23dcdafc.html"/>
       <url>posts/23dcdafc.html</url>
@@ -20,9 +49,9 @@
       
         <tags>
             
-            <tag> 期末总结 </tag>
-            
             <tag> Python </tag>
+            
+            <tag> 期末总结 </tag>
             
         </tags>
       
@@ -242,9 +271,9 @@
       
         <tags>
             
-            <tag> Navicat </tag>
-            
             <tag> MySQL </tag>
+            
+            <tag> Navicat </tag>
             
         </tags>
       
@@ -269,11 +298,11 @@
       
         <tags>
             
+            <tag> JSP </tag>
+            
             <tag> MyEclipse </tag>
             
             <tag> HTML </tag>
-            
-            <tag> JSP </tag>
             
         </tags>
       
@@ -377,9 +406,9 @@
       
         <tags>
             
-            <tag> Navicat </tag>
-            
             <tag> MySQL </tag>
+            
+            <tag> Navicat </tag>
             
         </tags>
       
@@ -458,9 +487,9 @@
       
         <tags>
             
-            <tag> Navicat </tag>
-            
             <tag> MySQL </tag>
+            
+            <tag> Navicat </tag>
             
         </tags>
       
@@ -512,9 +541,9 @@
       
         <tags>
             
-            <tag> HTML </tag>
-            
             <tag> JSP </tag>
+            
+            <tag> HTML </tag>
             
         </tags>
       
