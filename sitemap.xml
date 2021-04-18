@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.dhbxs.top/posts/d06540f2.html</loc>
+    <loc>https://blog.dhbxs.top/posts/37561f92.html</loc>
     
     <lastmod>2021-04-18</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.dhbxs.top/posts/37561f92.html</loc>
+    <loc>https://blog.dhbxs.top/posts/d06540f2.html</loc>
     
     <lastmod>2021-04-18</lastmod>
     
@@ -200,13 +200,6 @@
   </url>
   
   <url>
-    <loc>https://blog.dhbxs.top/tags/Hadoop/</loc>
-    <lastmod>2021-04-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.dhbxs.top/tags/JAVA/</loc>
     <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
@@ -215,6 +208,13 @@
   
   <url>
     <loc>https://blog.dhbxs.top/tags/Eclipse/</loc>
+    <lastmod>2021-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.dhbxs.top/tags/Hadoop/</loc>
     <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -377,14 +377,14 @@
   </url>
   
   <url>
-    <loc>https://blog.dhbxs.top/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8E%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
+    <loc>https://blog.dhbxs.top/categories/%E8%B5%84%E6%96%99%E5%A4%87%E5%BF%98%E6%95%B4%E7%90%86/</loc>
     <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.dhbxs.top/categories/%E8%B5%84%E6%96%99%E5%A4%87%E5%BF%98%E6%95%B4%E7%90%86/</loc>
+    <loc>https://blog.dhbxs.top/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8E%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
     <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
