@@ -87,9 +87,9 @@
     <category term="物联网" scheme="https://blog.dhbxs.top/categories/%E7%89%A9%E8%81%94%E7%BD%91/"/>
     
     
-    <category term="课程设计" scheme="https://blog.dhbxs.top/tags/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/"/>
-    
     <category term="Python" scheme="https://blog.dhbxs.top/tags/Python/"/>
+    
+    <category term="课程设计" scheme="https://blog.dhbxs.top/tags/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/"/>
     
     <category term="ZigBee" scheme="https://blog.dhbxs.top/tags/ZigBee/"/>
     
@@ -115,9 +115,9 @@
     <category term="Python基础" scheme="https://blog.dhbxs.top/categories/Python%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="Python" scheme="https://blog.dhbxs.top/tags/Python/"/>
-    
     <category term="期末总结" scheme="https://blog.dhbxs.top/tags/%E6%9C%9F%E6%9C%AB%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="Python" scheme="https://blog.dhbxs.top/tags/Python/"/>
     
   </entry>
   
